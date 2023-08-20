@@ -23,7 +23,7 @@ lib-install:
 	arduino-cli lib install --git-url https://github.com/PaulStoffregen/RadioHead.git
 	arduino-cli lib install "PubSubClient"
 	arduino-cli lib install "AsyncElegantOTA"
-	#arduino-cli lib install --git-url https://github.com/bblanchon/ArduinoJson.git
+	arduino-cli lib install --git-url https://github.com/bblanchon/ArduinoJson.git
 	arduino-cli lib install --git-url https://github.com/me-no-dev/ESPAsyncTCP.git
 	arduino-cli lib install --git-url https://github.com/arkhipenko/TaskScheduler.git
 

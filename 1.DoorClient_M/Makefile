@@ -20,11 +20,18 @@ req-libs-header:
 
 lib-install:
 	arduino-cli lib list
+	arduino-cli lib install --git-url https://github.com/arduino-libraries/NTPClient.git
+	arduino-cli lib install --git-url https://github.com/RobTillaart/Arduino/archive/master.zip
+	arduino-cli lib install --zip-path https://github.com/RobTillaart/Arduino/archive/master.zip
+	arduino-cli lib install --zip-path ../DHT_sensor_library-1.4.4.zip
+	arduino-cli lib install --git-url https://github.com/adafruit/Adafruit_Sensor.git
 	arduino-cli lib install --git-url https://github.com/PaulStoffregen/RadioHead.git
 	arduino-cli lib install "PubSubClient"
 	arduino-cli lib install "AsyncElegantOTA"
+	arduino-cli lib install "DHT"
 	#arduino-cli lib install --git-url https://github.com/bblanchon/ArduinoJson.git
 	arduino-cli lib install --git-url https://github.com/me-no-dev/ESPAsyncTCP.git
+	arduino-cli lib install --git-url https://github.com/arduino-libraries/NTPClient.git
 	arduino-cli lib install --git-url https://github.com/arkhipenko/TaskScheduler.git
 
 lint:
