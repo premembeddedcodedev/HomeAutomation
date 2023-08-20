@@ -21,6 +21,8 @@ req-libs-header:
 lib-install:
 	arduino-cli lib list
 	arduino-cli lib install --git-url https://github.com/PaulStoffregen/RadioHead.git
+	arduino-cli lib install --git-url https://github.com/gmag11/painlessMesh.git
+	arduino-cli lib install --git-url https://github.com/blynkkk/blynk-library.git
 	arduino-cli lib install "PubSubClient"
 	arduino-cli lib install "AsyncElegantOTA"
 	arduino-cli lib install --git-url https://github.com/bblanchon/ArduinoJson.git

@@ -1,6 +1,7 @@
 
 #define BLYNK_TEMPLATE_ID "TMPLZoeBRvSy"
 #define BLYNK_DEVICE_NAME "SampleHomeAutomation"
+#define BLYNK_TEMPLATE_NAME ""
 #define BLYNK_AUTH_TOKEN "Fe1EVDqsOJwj20Li3v2RFsmmZjoqdjic"
 
 #define BLYNK_PRINT Serial
