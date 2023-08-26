@@ -4,7 +4,7 @@
 #define BLYNK_TEMPLATE_ID "TMPLZoeBRvSy"
 #define BLYNK_DEVICE_NAME "MyHomeAutomation"
 #define BLYNK_AUTH_TOKEN "Pec1K_-BT_WrW4Hkyi_1AINac3XyaHlo"
-
+#define BLYNK_TEMPLATE_NAME ""
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>  
 #include <BlynkSimpleEsp8266.h>

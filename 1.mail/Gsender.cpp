@@ -1,5 +1,5 @@
 #include "NodeMcu_ESP8266_Gmail_Sender_by_FMT.h"
-#include "Base64.h";
+#include "Base64.h"
 Gsender* Gsender::_instance = 0;
 Gsender::Gsender(){}
 Gsender* Gsender::Instance()

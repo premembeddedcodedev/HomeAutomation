@@ -8,6 +8,10 @@
 #include <NTPClient.h>
 #include <ESP8266WiFiMulti.h>
 #include <RH_NRF24.h>
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_TEMPLATE_ID "TMPLZoeBRvSy"
+#define BLYNK_DEVICE_NAME "MyHomeAutomation"
+#define BLYNK_AUTH_TOKEN "Pec1K_-BT_WrW4Hkyi_1AINac3XyaHlo"
 #include <BlynkSimpleEsp8266.h>
 #define D5 14
 
@@ -20,10 +24,6 @@
  * Noise sensor enable : byte0 = NadeValue, byte1 = 1, ==> string : "Nodevalue10"
  * Gas sensor enable : byte0 = NadeValue, byte1 = 1, ==> string : "Nodevalue12"
  */
-
-#define BLYNK_TEMPLATE_ID "TMPLZoeBRvSy"
-#define BLYNK_DEVICE_NAME "MyHomeAutomation"
-#define BLYNK_AUTH_TOKEN "Pec1K_-BT_WrW4Hkyi_1AINac3XyaHlo"
 
 /* DoorConfigs - 1st byte payload*/
 #define FIRSTEASTDOOR_ENABLE		(1<<0)
